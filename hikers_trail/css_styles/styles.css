@@ -1,0 +1,96 @@
+html{
+    font-family: 'Oswald', sans-serif;
+}
+.wrapper {
+    color: black;
+    background-image: silver;
+    padding: 105px 3px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box
+}
+.nav {
+    color: saddlebrown;
+    position: fixed;
+    overflow: hidden;
+    width: 100%;
+    background-color: white;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box
+
+}
+.nav ul{
+    list-style-type: none;
+}
+.nav li {
+    float: right;
+    display: inline-block;
+    font-size: 22px;
+    line-height: 60px;
+    height: 80px;
+}
+.nav a{
+    color: saddlebrown;
+    padding: 10px 25px;
+    text-decoration: none;
+    display: block;
+}
+.t_symbol {
+    float: right;
+    padding-top: 8px;
+    padding-right: 10px;
+}
+.nav a:hover {
+    border-top: 2px solid;
+    border-color: brown;
+    font-size: 23px;
+}
+.nav-float{
+    float: left;
+    display: block;
+    margin-left: 20px;
+    padding: 10px 2px;
+}
+#logo {
+    max-width:270px;
+    max-height: 50px;
+    width: auto;
+    height: auto;
+}
+.article {
+    text-align: center;
+    padding: 10px 25px;
+    font-size: 22px;
+}
+.rainbow {
+    background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+    background-image: gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+    color:transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-size: 30px;
+}
+
+.main-image {
+    width: 100%;
+    height: 700px;
+}
+.child-image {
+    width: 100%;
+    height: 500px;
+}
+
+footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 25px;
+}
+
+/*grid-skeleton*/
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
